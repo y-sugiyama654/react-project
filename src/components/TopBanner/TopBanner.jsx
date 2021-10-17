@@ -4,7 +4,6 @@ import '../../asset/css/custom.css';
 import '../../asset/css/bootstrap.min.css';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "bootstrap/js/src/button";
 
 class TopBanner extends Component {
     render() {
