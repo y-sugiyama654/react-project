@@ -5,8 +5,6 @@ import Col from "react-bootstrap/Col";
 import designIcon from '../../asset/image/design.png';
 import ecommerceIcon from '../../asset/image/ecommerce.png';
 import webIcon from '../../asset/image/web.png';
-import '../../asset/css/custom.css';
-import '../../asset/css/bootstrap.min.css';
 
 class Services extends Component {
     render() {

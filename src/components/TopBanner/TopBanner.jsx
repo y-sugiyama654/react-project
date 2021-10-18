@@ -1,7 +1,5 @@
 import React, {Component, Fragment} from 'react';
 import { Container } from 'react-bootstrap';
-import '../../asset/css/custom.css';
-import '../../asset/css/bootstrap.min.css';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
