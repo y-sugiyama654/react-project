@@ -27,7 +27,6 @@
     font-weight: 600;
     color: #ffffff;
     font-size: 22px;
-
 }
 .ecommerceIcon{
     height: 80px;
@@ -122,4 +121,8 @@
     color: #000000 !important;
     font-weight: 700;
     font-size: 16px;
+}
+
+.nav-bar-item {
+    margin: 0 0 0 auto;
 }

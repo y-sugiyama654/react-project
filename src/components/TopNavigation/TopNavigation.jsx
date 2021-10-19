@@ -20,9 +20,7 @@ class TopNavigation extends Component {
     onScroll=()=>{
         if(window.scrollY>100){
             this.setState({navBarTitle:'navTitleScroll',navBarLogo:[blackLogo],navBarBack:'navBackgroundScroll',navBarItem:'navItemScroll'})
-
         }else if(window.scrollY<100){
-
             this.setState({navBarTitle:'navTitle',navBarLogo:[whiteLogo],navBarBack:'navBackground',navBarItem:'navItem'})
         }
     }
@@ -30,7 +28,6 @@ class TopNavigation extends Component {
     componentDidMount(){
         window.addEventListener('scroll',this.onScroll)
     }
-
 
     render() {
         return (
@@ -43,7 +40,7 @@ class TopNavigation extends Component {
                         <Nav className="mr-auto">
 
                         </Nav>
-                        <Nav>
+                        <Nav className={"nav-bar-item"}>
                             <Nav.Link className={this.state.navBarItem} href="#deets">HOME</Nav.Link>
                             <Nav.Link className={this.state.navBarItem} href="#deets">ABOUT</Nav.Link>
                             <Nav.Link className={this.state.navBarItem}  href="#deets">SERVICE</Nav.Link>
